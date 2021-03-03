@@ -1,0 +1,318 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- !Bootstrap css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+   
+    <!-- ?css cdn ends -->
+    <link rel="stylesheet" href="{% static './css/style.css' %}">
+</head>
+<body>
+
+    <!-- * fixed Navbar inpagelinking 
+         * About paralex 
+         * Educational background  
+         * Papers
+         * contacts-->
+
+    
+
+    <!-- About -->
+    <section class="">
+        <div class="row about-bg p-5">
+            <div class="about-image height-about col-xl-6 col-md-6 d-flex justify-content-center align-items-center">
+                <img src="{% static './image/pic.jpg' %}" class="img-fluid img-thumbnail circle1" alt="">
+            </div>
+            <div class="height-about col-xl-6 col-md-6 p-3 d-flex justify-content-center align-items-center">
+                <div class="col text-left m-5">
+                    <h1 class="display-6 font-weight-bold text-uppercase mt-4">
+                        <strong class="mb-0">ABDULLAH MOHAMMAD SHOHAEL, PhD</strong>
+                    </h1>
+                    <div>
+                        <small class="h6">Professor </small>
+                    </div>                     
+                    <p class="text-light lead">Department of Biotechnology & Genetic Engineering<br>Jahangirnagar University<br>Savar-1342, Dhaka, BANGLADESH</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- *about me -->
+    <!-- *about me ends -->
+
+
+
+
+
+
+
+<!-- Navbarstart -->
+<nav class="navbar navbar-expand-md sticky-top navbar-dark bg-nav">
+    <div class="container">
+      <!--<a class="navbar-brand" href="#">Navbar</a>-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item">
+            <a class="nav-link about" aria-current="page" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link academics" aria-current="page" href="#academic">Academic Background</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link experience" aria-current="page" href="#experience">Professional Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link research" href="#research">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link papers" href="#papers">Papers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link contacts" href="#contacts" tabindex="-1" aria-disabled="true">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+    <!-- Navbarends -->
+
+
+
+
+
+    <!-- Aboutstart -->
+    <a name="about"></a>
+    <section class="">
+        <div class="container my-5">
+            <div class="bg-muted text-light border p-3 pabout">
+                <p class="h4 font-weight-bold my-3">About Me</p>
+                <div class="mb-4">
+                  I have joined the International Rice Research Institute (IRRI) as a research collaborator after completing my Ph.D. in Agricultural Biotechnology from Chungbuk National University, South Korea in 2006 where I worked on the oversee of aquaporin functions of drought-tolerant mechanisms in rice. While pursuing my JSPS Postdoctoral fellowship from 2007 to 2009 at Tsukuba University, Japan my prior responsibility was to develop genetically modified lettuce plants harboring a taste modifying protein Miraculin. As a Research-Associate of the University of Florida (2009-2011), I attained my research goal successfully by developing a model on Greening and Canker resistant transgenic Citrus cultivars. I have a long research track on plant tissue culture, commercial production of plant cells through the bioreactor,  and plant genetic engineering. I have published articles in many international journals and books (total citation 849, h-index 15, i10-index 16; RG score 20.49). My key research interests to isolate novel genes from local biodiversity, genome engineering, and genome editing approach to develop environmentally resilient plants. I am also interested in metabolomics, metabolic engineering, secondary metabolism study from various endangered species, and their conservation. As a coordinator of the institutional biosafety committee I am trying to establish institutional biosafety & biosecurity guidelines and procedures. Conducting various activities and innovative strategy development are my duty as an assistant director in the Insitutional Quality Assurence Cell of the Jahangirnagar University (IQAC, JU). In regular basis I am arranging campaigns to create public awareness, and motivation towards the new technologies.
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Aboutends -->
+
+
+    <!-- Edu start -->
+    <a name="academic"></a>
+    <section class="">
+        <div class="container my-5">
+            <div class="bg-muted text-light border p-3 pacademics">
+                <p class="h4 font-weight-bold my-3">Academic Background</p>
+                <div class="mb-4">
+                  </div>
+                  <table class="table table-striped table-dark">
+                    <tbody>
+                      <tr>
+                        <th scope="row">B.Sc. (Hons)</th>
+                        <td>Botany</td>
+                        <td>Rajshahi University, Bangladesh</td>
+                        <td>2000</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">M.Sc.</th>
+                        <td>Plant Biotechnology</td>
+                        <td>Rajshahi University, Bangladesh</td>
+                        <td>2002</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">PhD</th>
+                        <td>Agriculture/Plant Biotechnology</td>
+                        <td>Chungbuk National University, South Korea </td>
+                        <td>2006</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </section>
+    <!-- Edu ends -->
+
+
+
+
+    <!-- *Professional experience starts -->
+
+    <!-- *Professional experience Ends -->
+
+
+
+
+    <!-- Research start-->
+    <a name="research"></a>
+    <section class="">
+      <div class="container my-5">
+          <div class="bg-muted text-light border p-3 presearch">
+              <p class="h4 font-weight-bold my-3">Research</p>
+              <div class="mb-4">
+                <p class="h6 font-weight-bold">Secondary School Cirtificate</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illum quas veniam soluta dolores, Lorem ipsum dolor sit amet.</p>
+
+              </div>
+              <div class="mb-4">
+                <p class="h6 font-weight-bold">Secondary School Cirtificate</p>
+                <p>Lorem ipsum dolor sit Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam autem similique veniam minus perspiciatis obcaecati? amet consectetur adipisicing elit. Rerum illum quas veniam soluta dolores, Lorem ipsum dolor sit amet.</p>
+
+              </div>
+              <div class="mb-4">
+                <p class="h6 font-weight-bold">Secondary School Cirtificate</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illum quas veniam soluta dolores, Lorem ipsum dolor sit amet.</p>
+
+              </div>
+              <div class="mb-4">
+                <p class="h6 font-weight-bold">Secondary School Cirtificate</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illum quas veniam soluta dolores, Lorem ipsum dolor sit amet.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+    <!-- Research ends -->
+    
+
+    <!-- Papers start-->
+  <a name="papers"></a>
+    <section class="">
+      <div class="container my-5">
+          <div class="bg-muted text-light border p-3 ppapers">
+              <p class="h4 font-weight-bold my-3">Research</p>
+              <div class="mb-4">
+                <p class="h6 font-weight-bold">Secondary School Cirtificate</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illum quas veniam soluta dolores, Lorem ipsum dolor sit amet.</p>
+
+              </div>
+              <div class="mb-4">
+                <p class="h6 font-weight-bold">Secondary School Cirtificate</p>
+                <p>Lorem ipsum dolor sit Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam autem similique veniam minus perspiciatis obcaecati? amet consectetur adipisicing elit. Rerum illum quas veniam soluta dolores, Lorem ipsum dolor sit amet.</p>
+
+              </div>
+              <div class="mb-4">
+                <p class="h6 font-weight-bold">Secondary School Cirtificate</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illum quas veniam soluta dolores, Lorem ipsum dolor sit amet.</p>
+
+              </div>
+              <div class="mb-4">
+                <p class="h6 font-weight-bold">Secondary School Cirtificate</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illum quas veniam soluta dolores, Lorem ipsum dolor sit amet.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+    <!-- Papers ends -->
+    
+    
+    
+    <!-- Contacts -->
+
+
+
+    <a name="contacts"></a>
+    <section class="contact-bg">
+      <div class="container">
+        <div class="row p-5">
+          <div class="height-about d-flex justify-content-center align-items-center pcontacts">
+              <div class="col-8 text-left m-5">
+                <p class="h4 font-weight-bold my-3">Contacts</p>
+                  <div>
+                      <small class="h6">Lorem ipsum dolor sit amet.</small>
+                  </div>                     
+                  <p class="text-light lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti impedit maiores atque amet et corrupti cupiditate consequatur illum. Ab, dolor?</p>
+              </div>
+          </div>
+      </div>
+      </div>
+        
+    </section>
+
+
+
+
+
+    <!-- Contacts ends -->
+
+
+
+
+  <!--**** js -->
+<script>
+  ////////////////////
+  function makeActiveAb(){
+    about.style.color="burlywood"
+  }
+  function backAb(){
+    about.style.color="white"
+  }
+  /////////////////
+  function makeActiveA(){
+    academics.style.color="burlywood"
+  }
+  function backA(){
+    academics.style.color="white"
+  }
+  //////////////////
+  function makeActiveR(){
+    research.style.color="burlywood"
+  }
+  function backR(){
+    research.style.color="white"
+  }
+  ///////////////////
+  function makeActiveP(){
+    papers.style.color="burlywood"
+  }
+  function backP(){
+    papers.style.color="white"
+  }
+  ////////////////////
+  function makeActiveC(){
+    contacts.style.color="burlywood"
+  }
+  function backC(){
+    contacts.style.color="white"
+  }
+  /////////////////////
+  const pabout=document.querySelector('.pabout')
+  const about=document.querySelector('.about')
+  const pacademics=document.querySelector('.pacademics')
+  const academics=document.querySelector('.academics')
+  const presearch=document.querySelector('.presearch')
+  const research=document.querySelector('.research')
+  const ppapers=document.querySelector('.ppapers')
+  const papers=document.querySelector('.papers')
+  const pcontacts=document.querySelector('.pcontacts')
+  const contacts=document.querySelector('.contacts')
+  console.log(pacademics, ppapers, presearch)
+  //////////////////////
+  pacademics.addEventListener('mouseover', makeActiveA)
+  pacademics.addEventListener('mouseout', backA)
+  /////////////////////////
+  presearch.addEventListener('mouseover', makeActiveR)
+  presearch.addEventListener('mouseout', backR)
+  ////////////////////////
+  ppapers.addEventListener('mouseover', makeActiveP)
+  ppapers.addEventListener('mouseout', backP)
+  /////////////////////////////
+  pcontacts.addEventListener('mouseover', makeActiveC)
+  pcontacts.addEventListener('mouseout', backC)
+  ////////////////////////////
+  pabout.addEventListener('mouseover', makeActiveAb)
+  pabout.addEventListener('mouseout', backAb)
+</script>
+    <!-- !Bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <!-- ?js cdn ends -->
+</body>
+</html> 
